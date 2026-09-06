@@ -15,8 +15,8 @@ timezone:
 ## GitHub Pages 網址設定：
 ## 若倉庫名稱為 LVTHW-bak，網址為 https://<username>.github.io/LVTHW-bak/
 ## 若您在 GitHub 上使用了其他倉庫名稱，請修改下方的 url 與 root
-url: https://h6rst0n.github.io/LVTHW-bak
-root: /LVTHW-bak/
+url: https://h6rst0n.github.io/LVTHW-bak_aiagent
+root: /LVTHW-bak_aiagent/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -96,7 +96,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/H6rst0n/LVTHW-bak.git
+  repo: https://github.com/H6rst0n/LVTHW-bak_aiagent.git
   branch: gh-pages
 
 # Show number of visitors to each article.

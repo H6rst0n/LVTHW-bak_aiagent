@@ -44,10 +44,10 @@
 4. 點擊 **Create repository**。
 
 ### 步驟 2：推送到 GitHub
-在本地的 `LVTHW-bak` 資料夾中開啟終端機（PowerShell 或 Git Bash），執行以下指令：
+在本地的 `LVTHW-bak_aiagent` 資料夾中開啟終端機（PowerShell 或 Git Bash），執行以下指令：
 
 ```bash
-git remote add origin https://github.com/<您的GitHub帳號>/LVTHW-bak.git
+git remote add origin https://github.com/H6rst0n/LVTHW-bak_aiagent.git
 git branch -M main
 git push -u origin main
 ```
@@ -58,19 +58,7 @@ git push -u origin main
    👉 **GitHub Actions**
 3. 稍候 1~2 分鐘，GitHub Actions 將會自動編譯 Hexo 並完成部署！
 4. 部署成功後，即可透過以下網址瀏覽：
-   `https://<您的GitHub帳號>.github.io/LVTHW-bak/`
-
----
-
-## ⚙️ 自訂倉庫名稱注意事項
-
-若您的倉庫名稱不是 `LVTHW-bak`（例如改名為 `LVTHW_bak` 或 `my-vasp-notes`）：
-請打開根目錄下的 `_config.yml`，修改第 17~18 行：
-```yaml
-url: https://<您的GitHub帳號>.github.io/<您的倉庫名稱>
-root: /<您的倉庫名稱>/
-```
-修改後重新提交並推送即可。
+   `https://H6rst0n.github.io/LVTHW-bak_aiagent/`
 
 ---
 
