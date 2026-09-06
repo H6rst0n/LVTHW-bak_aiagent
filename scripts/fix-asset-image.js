@@ -13,7 +13,7 @@ hexo.extend.filter.register('after_post_render', function(data) {
     data[key] = data[key].replace(/<img\s+([^>]*?)src=["']([^"']+)["']([^>]*?)>/gi, function(match, prefix, src, suffix) {
       if (/^(https?:)?\/\//i.test(src) || src.startsWith('data:')) return match;
 
-      src = src.replace(/\\/g, '/');
+      src = src.replace(/%5C/gi, '/').replace(/\\/g, '/');
       if (src.startsWith(postUrl)) return match;
 
       let cleanSrc = src;
